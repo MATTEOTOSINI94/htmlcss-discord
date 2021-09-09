@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.bg{
+    background-image: url(img/jumbo.png);
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+}
+.conteiner{
+    width: 920px;
+    margin: auto;
+    position: relative;
+}
+
+.cnt{
+    text-align: center;
+}
+ul{
+    display: inline-block;
+}
+ul li {
+    display: inline-block;
+    list-style:none ;
+}
+
+ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: blanchedalmond; 
+    text-align: center;
+    padding: 5px;
+    padding-left: 30px;  
+    font-family: 'Heebo', sans-serif; 
+    font-size: small;
+    font-weight: bold;
+}
+
+.nav{
+    padding-top: 10px;
+}
+
+
+.button-small{
+    display: inline-block;
+    background-color:white ;
+    padding: 8px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: 'Heebo', sans-serif; 
+    font-size: small;
+    font-weight: bold;
+
+}
+.box1{
+    /* margin: 0 auto;
+    border: 1px solid blanchedalmond;
+    width: 500px;
+    position: relative;
+    top: 200px ;
+    text-align: center;
+    line-height: 35px;
+    width: 100%;  
+}
+
+.box2{
+    width: 50%; */
+}
+.Pstyle{
+    font-family: 'Heebo', sans-serif; 
+
+}
+.row >*{
+    float: left;
+}
+
+.col-1-6{
+    width: calc(100% / 6);
+}
+
+.col-2-6{
+    width: calc(100% / 6 * 1);
+}
+
+.col-4-6{
+    width:  calc(100% / 6 * 4);
+}
