@@ -3,30 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+header{
+    background-image: url(img/jumbo.png);
+    background-position: center;
+    background-size: cover;
+}
 .clearfix{
     content: "";
     display: table;
     clear: both;
 }
-
-.bg{
-    background-image: url(img/jumbo.png);
-    height: 500px;
-    background-position: center center;
-    background-size: cover;
-}
 .conteiner{
-    width: 920px;
-    margin: auto;
-    position: relative;
+    max-width: 920px;
+    width: 100%;
+    margin: auto; 
+    min-height: 500px;
 }
 
-.cnt{
-    text-align: center;
+.block{
+    
+    padding-top: 20px;
 }
+
 ul{
     display: inline-block;
+ 
 }
 ul li {
     display: inline-block;
@@ -37,60 +38,113 @@ ul li a{
     display: inline-block;
     text-decoration: none;
     color: blanchedalmond; 
-    text-align: center;
-    padding: 5px;
-    padding-left: 30px;  
+    padding: 10px;
     font-family: 'Heebo', sans-serif; 
     font-size: small;
     font-weight: bold;
 }
-
-.nav{
-    padding-top: 10px;
-}
-
-
-.button-small{
-    display: inline-block;
-    background-color:white ;
-    padding: 8px;
-    border-radius: 50px;
-    text-decoration: none;
-    font-family: 'Heebo', sans-serif; 
-    font-size: small;
-    font-weight: bold;
-
-}
-.box1{
-    /* margin: 0 auto;
-    border: 1px solid blanchedalmond;
-    width: 500px;
-    position: relative;
-    top: 200px ;
-    text-align: center;
-    line-height: 35px;
-    width: 100%;  
-}
-
-.box2{
-    width: 50%; */
-}
-.Pstyle{
-    font-family: 'Heebo', sans-serif; 
-
-}
-.row >*{
+.row > *{
     float: left;
 }
-
 .col-1-6{
     width: calc(100% / 6);
 }
 
 .col-2-6{
-    width: calc(100% / 6 * 1);
+    width: calc(100% / 6 * 2);
 }
 
 .col-4-6{
     width:  calc(100% / 6 * 4);
 }
+
+.cnt{
+    text-align: center;
+}
+
+.logos{
+    text-align: left;
+    padding-top: 22px;
+}
+
+.button{
+    display: inline-block;
+    background-color:white ;
+    padding: 10px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: 'Heebo', sans-serif; 
+    font-size: 15px;
+    padding: 10px 24px;
+    
+}
+.right{
+    text-align: right;
+   
+}
+
+.maincontent{
+    margin: auto;
+    text-align: center;
+    padding-top: 150px;
+}
+h1{
+    /* padding-bottom: 40px; */
+    color: white;
+    font-size: bold;
+    font-size: 50px;
+
+}
+
+.prg-style{
+    font-family: 'Heebo', sans-serif; 
+    color: white;
+    font-size: bold;
+    padding-top: 30px;
+   
+}
+
+.col-4-6 .black{
+    background-color: black;
+    color: white;
+
+}
+.link{
+    margin-top: 30px;
+    
+}
+
+
+.left{
+    padding-left: 140px;
+}
+
+.right{
+    padding-right: 140px;
+}
+section{
+    background-color: rgba(128, 128, 128, 0.267);
+}
+.dimension{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.picstyle{
+    width: 600px;
+}
+
+h2{
+    font-family: 'Heebo', sans-serif; 
+    font-size: 35px;
+}
+.doc{
+    font-family: 'Heebo', sans-serif;
+    font-size: 25px;
+}
+
+
+.dms{
+    max-height: 500px;
+ 
+ }
