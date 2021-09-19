@@ -57,6 +57,11 @@ ul li a{
 .col-4-6{
     width:  calc(100% / 6 * 4);
 }
+.proj{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
 
 .cnt{
     text-align: center;
@@ -119,11 +124,12 @@ h1{
     padding-left: 140px;
 }
 
-.right{
+.padright{
     padding-right: 140px;
 }
 section{
     background-color: rgba(128, 128, 128, 0.267);
+
 }
 .dimension{
     padding-top: 100px;
@@ -147,4 +153,15 @@ h2{
 .dms{
     max-height: 500px;
  
+ }
+ .last-section{
+     text-align: center;
+ }
+
+ .last-section .button{
+    border-radius: 28px;
+    font-size: 20px;
+    padding: 13px 32px;
+    background-color: blue;
+    color: white;
  }
